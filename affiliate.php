@@ -18,18 +18,18 @@
                 <img class="title" class="creditLogo" src="images/creditHubandLogoTitle.svg" alt="CreditHub">
             </div>
             <div class="for">
-                <a href="#"> For Businesses </a>
+                <a href="index.html"> For Businesses </a>
             </div>
             <div class="secondHalfTitle">
                 <a href="#"> Contact Us </a>
-                <a href="#"> FAQ </a>
+                <a href="#faq"> FAQ </a>
             </div>
             <div class="navButton">
-                <a href="getStarted/getstarted.php"><button class="anAffiliate">Become an Affiliate</button></a>
-                <a href="#"><button class="loginBtn"> Login </button></a>
+                <a href="signInAffiliates/Sign-in Folder/signin.php"><button class="anAffiliate">Become an Affiliate</button></a>
+                <a href="login.php"><button class="loginBtn"> Login </button></a>
             </div>
            <div class="menuBar">
-            <a href="#"> <img src="images/menu.svg" ></a>
+            <a href="hamburger.html" onclick="openModal()"> <img src="images/menu.svg" ></a>
            </div>
         </div>
     </section>
@@ -48,7 +48,9 @@
                        onboard. 
                     </div>
                     <div class="twoButtons">
-                        <a href="getStarted/getstarted.php"><button class="becomeBtn">Become an Affiliate</button></a>
+                        <a href="signInAffiliates/Sign-in Folder/signin.php">
+                            <button class="becomeBtn">Become an Affiliate </button>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -182,7 +184,7 @@
         </div>
 
         <div class="twoButtons">
-            <a href="getStarted/getstarted.php"><button class="btn" >Become an Affiliate</button></a>
+            <a href="signInAffiliates/Sign-in Folder/signin.php"><button class="btn" >Become an Affiliate</button></a>
         </div>
     </section>
 
@@ -215,13 +217,13 @@
                         living for their families. Here smart working Nigerians earn massive income daily.
                     </span>
                     <div class="getStartedDesktop" >
-                        <a href="#"><button class="btn" >Get started for free</button></a>
+                        <a href="signInAffiliates/Sign-in Folder/signin.php"><button class="btn" >Get started for free</button></a>
                     </div>
                 </div>
            </div>
             
             <div  class="getStartedBtn">
-                <a href="getStarted/getstarted.php"><button class="btn" >Get started for free</button></a>
+                <a href="signInAffiliates/Sign-in Folder/signin.php"><button class="btn" >Get started for free</button></a>
             </div>
         </div>
     </section>
@@ -268,7 +270,7 @@
 
     <section class="faqSection">
         <div class="faqs">
-            <span>FAQs</span>
+            <span id="faq"> FAQs </span>
             <p>
                 Got questions? we’ve got answers! Here are a few of 
                 the most popular ones to get you started:
@@ -316,7 +318,7 @@
                 </div>
             </div>
 
-            <a href="#">
+            <a href="signInAffiliates/Sign-in Folder/signin.php">
                 <button class="btn" id="becomeAffiliateBtn">Have More Questions?</button>
             </a>
         </div>
@@ -349,7 +351,7 @@
             </div>
         </div>
     </footer>
-    <script  src="affiliate.js"> 
+    <script  src="affiliate.js" src="hamburger.js"> 
     </script>
 </body>
 </html>

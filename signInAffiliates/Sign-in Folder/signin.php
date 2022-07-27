@@ -18,7 +18,7 @@
         <!-- this is the first section logo, hamburger  -->
         <div class="topbar">
           <span class="logo-img"
-            ><img src="images/Logos.png" alt="logo" />
+            ><img src="images/Logos.svg" alt="logo" />
           </span>
           <span class="logo-close">
             <button class="menu-btn" id="menu-btn" onclick="openModal()"><img src="images/Menu.png" alt="" /></button>
